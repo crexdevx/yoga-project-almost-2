@@ -585,24 +585,6 @@ function EnrollPage() {
         </div>
       </section>
 
-      <footer className="bg-course-footer px-6 py-14 text-center text-course-footer-foreground">
-        <img
-          src={logoImg}
-          alt="North East Yoga and Meditation Centre"
-          className="mx-auto size-20 object-contain"
-          width={320}
-          height={320}
-          loading="lazy"
-        />
-        <p className="mx-auto mt-5 max-w-sm font-serif text-xl leading-8">
-          &ldquo;Yoga is not just a practice, it&rsquo;s a way of life.&rdquo;
-        </p>
-        <p className="mt-6 text-sm">
-          <Link to="/programs" className="underline underline-offset-2 hover:text-course-gallery-active">
-            Explore our courses
-          </Link>
-        </p>
-      </footer>
     </main>
   );
 }
