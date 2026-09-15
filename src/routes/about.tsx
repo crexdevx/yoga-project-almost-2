@@ -18,8 +18,8 @@ import champSolo from "@/assets/champ-solo-performance.webp";
 import threeMedals from "@/assets/three-yoga-medals.webp";
 
 const teamPhotos = [
-  { src: champMedal.url, alt: "Medal ceremony at the 2nd International Yoga Sports Championship" },
-  { src: champTeam.url, alt: "Team India with medals and the national flag at the championship" },
+  { src: champMedal, alt: "Medal ceremony at the 2nd International Yoga Sports Championship" },
+  { src: champTeam, alt: "Team India with medals and the national flag at the championship" },
 ];
 
 const medals = [
@@ -181,7 +181,7 @@ function AboutPage() {
       >
         <div className="mx-auto grid max-w-6xl items-start gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-16">
           <img
-            src={pallabiPhoto.url}
+            src={pallabiPhoto}
             alt="Pallabi Saikia, Managing Director and Chief Professionalist"
             className="w-full rounded-[2rem] object-cover shadow-2xl"
             width={800}
@@ -217,7 +217,7 @@ function AboutPage() {
       >
         <div className="mx-auto grid max-w-6xl items-start gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-16">
           <img
-            src={syedPhoto.url}
+            src={syedPhoto}
             alt="Syed Inamul Hussain, Senior Yoga Professional"
             className="w-full rounded-[2rem] object-cover shadow-2xl"
             width={800}
@@ -291,7 +291,7 @@ function AboutPage() {
           </div>
 
           <img
-            src={threeMedals.url}
+            src={threeMedals}
             alt="Gold, silver, and bronze championship medals"
             className="mx-auto mt-10 aspect-[2/1] w-full max-w-4xl rounded-lg object-cover"
             width={1400}
@@ -335,7 +335,7 @@ function AboutPage() {
 
           <figure className="mx-auto mt-16 max-w-4xl">
             <img
-              src={champAsana.url}
+              src={champAsana}
               alt="Himanshu Saikia performing yoga at the 2nd International Yoga Sports Championship"
               className="aspect-[16/9] w-full rounded-lg object-cover"
               loading="lazy"
@@ -348,7 +348,7 @@ function AboutPage() {
 
           <figure className="mx-auto mt-16 max-w-4xl">
             <img
-              src={champSolo.url}
+              src={champSolo}
               alt="Student performing artistic yoga at an international championship"
               className="aspect-[16/9] w-full rounded-lg object-cover"
               loading="lazy"
