@@ -274,11 +274,6 @@ function ProgramsPage() {
         ))}
       </div>
 
-      <footer className="bg-course-footer px-6 py-14 text-center text-course-footer-foreground">
-        <img src={logoImg} alt="North East Yoga and Meditation Centre" className="mx-auto size-20 object-contain" width={320} height={320} loading="lazy" />
-        <p className="mx-auto mt-5 max-w-sm font-serif text-xl leading-8">“Yoga is not just a practice, it’s a way of life.”</p>
-      </footer>
-
       {galleryCourse ? (
         <div
           role="dialog"
