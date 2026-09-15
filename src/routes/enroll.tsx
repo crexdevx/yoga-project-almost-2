@@ -618,7 +618,7 @@ function Field({
   id: string;
   label: string;
   required?: boolean;
-  error?: string;
+  error?: string | undefined;
   hint?: string;
   children: ReactNode;
 }) {
@@ -659,7 +659,7 @@ function SelectInput({
   options: string[];
   value: string;
   onChange: (value: string) => void;
-  error?: string;
+  error?: string | undefined;
 }) {
   const describedBy = error ? `${id}-error` : undefined;
   return (

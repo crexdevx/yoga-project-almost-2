@@ -250,7 +250,7 @@ function Index() {
                 size="lg"
                 className="group h-auto gap-4 rounded-none bg-transparent p-0 text-base font-bold text-about-button-foreground shadow-none transition-transform duration-300 hover:-translate-y-0.5 hover:bg-transparent focus-visible:ring-about-button sm:text-lg"
               >
-                <Link to="/enroll">
+                <Link to="/enroll" search={{ course: undefined }}>
                   Join the Community
                   <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-about-arrow text-about-on-navy transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 sm:size-12">
                     <ArrowUpRight aria-hidden="true" className="size-6" />
