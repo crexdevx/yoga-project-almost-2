@@ -46,7 +46,7 @@ const inputBase =
 export const Route = createFileRoute("/enroll")({
   staticData: { sitemap: true },
   validateSearch: (search: Record<string, unknown>) => ({
-    course: typeof search.course === "string" ? search.course : undefined,
+    course: typeof search["course"] === "string" ? search["course"] : undefined,
   }),
   head: () => ({
     meta: [
