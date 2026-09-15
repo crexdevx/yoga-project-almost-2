@@ -9,13 +9,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import pallabiPhoto from "@/assets/pallabi-saikia.webp.asset.json";
-import syedPhoto from "@/assets/syed-inamul-hussain.webp.asset.json";
-import champMedal from "@/assets/champ-medal-ceremony.webp.asset.json";
-import champTeam from "@/assets/champ-team-india.webp.asset.json";
-import champAsana from "@/assets/champ-asana-performance.webp.asset.json";
-import champSolo from "@/assets/champ-solo-performance.webp.asset.json";
-import threeMedals from "@/assets/three-yoga-medals.webp.asset.json";
+import pallabiPhoto from "@/assets/pallabi-saikia.webp";
+import syedPhoto from "@/assets/syed-inamul-hussain.webp";
+import champMedal from "@/assets/champ-medal-ceremony.webp";
+import champTeam from "@/assets/champ-team-india.webp";
+import champAsana from "@/assets/champ-asana-performance.webp";
+import champSolo from "@/assets/champ-solo-performance.webp";
+import threeMedals from "@/assets/three-yoga-medals.webp";
 
 const teamPhotos = [
   { src: champMedal.url, alt: "Medal ceremony at the 2nd International Yoga Sports Championship" },
